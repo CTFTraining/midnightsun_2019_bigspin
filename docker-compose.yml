@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+
+  web:
+    build: .
+    image: ctftraining/midnightsun_2019_bigspin
+    restart: always
+    ports:
+      - "127.0.0.1:5631:80"
